@@ -1,0 +1,297 @@
+body {
+    font-size: inherit;
+    font-family: 'Roboto', 'Noto Sans KR';
+}
+
+p {
+    line-height: 1.3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', 'Noto Sans KR';
+}
+
+
+.inner {
+
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.Wrap {}
+
+.header .top_banner {
+    border-bottom: 1px solid #ddd;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.header .inner {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.header .top_link {
+    display: flex;
+}
+
+.header .top_link li {
+    padding: 0 15px;
+    border-right: 1px solid #ddd;
+}
+
+.header .head_container {
+    line-height: 100px;
+}
+
+.header .gnb>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .gnb>ul>li {
+    position: relative;
+}
+
+
+.header .gnb>ul>li>a {
+    display: inline-block;
+    padding: 0 60px;
+    font-size: 18px;
+}
+
+.header .gnb>ul>li:last-child a {
+    padding: 0 0 0 30px;
+}
+
+.header .gnb>ul>li .submenu {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%, 0);
+    width: 150px;
+    background: #fff;
+    border: 1px solid #ddd;
+    line-height: 40px;
+    font-size: 13px;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.header .gnb>ul>li:hover .submenu {
+    top: 90px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.header .gnb>ul>li .submenu li {
+    padding: 0 0 0 15px;
+}
+
+.header .gnb>ul>li .submenu li~li {
+    border-top: 1px solid #ddd;
+}
+
+
+/* mainVisual */
+
+.mainVisual {
+    background: url(../img/visual1.jpg)no-repeat center center/cover;
+    height: 652px;
+}
+
+.mainVisual h2 {
+
+    font-size: 50px;
+    color: #fff;
+    line-height: 120%;
+    font-weight: 200;
+    padding-top: 180px;
+}
+
+.mainVisual p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 140%;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+/* main New Product */
+
+.mainNew {
+    padding: 100px 0;
+}
+
+.mainNew h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 50px;
+}
+
+.mainNew P {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mainNew .inner>div {
+    display: flex;
+    gap: 20px;
+}
+
+.mainNew .top img {
+    width: 600px;
+    height: 300px;
+}
+
+.mainNew .bottom img {
+    width: 400px;
+    height: 300px;
+}
+
+
+/* main Product */
+
+.mainProduct {
+    padding: 100px 0;
+    background: #ddd;
+}
+
+
+.mainProduct h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 50px;
+}
+
+.mainProduct P {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cate {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cate span {
+    margin: 0 15px;
+    padding: 10px 20px;
+    border: 1px solid #333;
+}
+
+.main_pro_slide img {
+    width: 100%;
+}
+
+.main_pro_slide {
+    margin: 30px 0;
+}
+
+.mainProduct figure {
+    padding: 0 15px 20px 15px;
+}
+
+.mainProduct .main_pro_slide {
+    margin: 0 -15px;
+}
+
+.mainProduct .main_pro_slide .tit {
+    background: #fff;
+    padding: 30px 0;
+}
+
+.mainProduct .main_pro_slide .ctg {
+    padding: 0 0 15px 15px;
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+
+}
+
+.mainProduct .main_pro_slide .name {
+    padding: 0 0 15px 15px;
+    font-weight: 500;
+}
+
+
+/* mainCustomer */
+
+.mainCustomer {
+    padding: 100px 0;
+}
+
+.mainCustomer .cs {
+    display: flex;
+}
+
+.mainCustomer .cs .right {
+    flex: 7;
+    background: #ddd;
+}
+
+.mainCustomer .cs .left {
+    flex: 3;
+    text-align: center;
+    line-height: 35px;
+    background: url(../img/inquiry_bg.jpg);
+    height: 300px;
+}
+
+.mainCustomer .cs .left img {
+    padding: 20px 0 0 0;
+}
+
+.mainCustomer .cs .left h3 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.mainCustomer .cs .left p {
+    padding: 10px 0 30px 0;
+}
+
+.mainCustomer .cs .left a {
+
+    padding: 5px 10px;
+    border: 1px solid #333;
+}
+
+.family {
+    display: flex;
+    gap: 10px;
+    padding: 30px 0;
+}
+
+.family figure {
+    border: 1px solid #ddd;
+}
+
+
+/* footer */
+
+.footer {
+    padding: 50px 0;
+    background: #333;
+    color: #ddd;
+}
+
+.footer .top {
+    display: flex;
+    justify-content: space-between;
+}
