@@ -194,6 +194,21 @@ include_once(G5_THEME_PATH.'/head.php');
                     </div>
                 </div>
 
+                
+                <div class="dr_sc">
+                    <div class="inner">
+                        <span class="ar1"><img src="<?= G5_THEME_URL ?>/img/p_arr1.gif" alt=""></span>
+                        <span class="ar2"><img src="<?= G5_THEME_URL ?>/img/p_arr2.gif" alt=""></span>
+                    </div>
+                </div>
+                <span class="ds">
+                    <div class="inner">
+                        <div><img src="<?= G5_THEME_URL ?>/img/p_cursor.gif" alt=""></div>
+                        <div>DRAG & SCROLL</div>
+                    </div>
+
+                </span>
+
             </div>
 
             <div class="mainBanner">

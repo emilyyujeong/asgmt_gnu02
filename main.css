@@ -23,7 +23,6 @@ h6 {
 
 
 .inner {
-
     width: 1200px;
     margin: 0 auto;
 }
@@ -455,7 +454,7 @@ h6 {
 }
 
 .mainProduct .main_pro_slide {
-    margin: 0 -15px;
+    margin: 0 -15px 50px -15px;
 }
 
 .mainProduct i {
@@ -543,7 +542,42 @@ h6 {
 
 }
 
+/* drag and scroll */
 
+.dr_sc {
+    margin-top: -10px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.dr_sc .inner {
+    display: block;
+    position: relative;
+}
+
+.dr_sc .inner .ar1 {
+    position: absolute;
+    left: 0;
+    top: -8px;
+}
+
+.dr_sc .inner .ar2 {
+    position: absolute;
+    right: 0;
+    top: -8px;
+}
+
+.ds {
+    text-align: center;
+    font-size: 13px;
+    color: #777777;
+}
+
+.ds img {
+    margin-top: -25px;
+    padding: 15px;
+    width: 47px;
+
+}
 
 /* mainBanner */
 
